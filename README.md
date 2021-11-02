@@ -1,19 +1,22 @@
-# COMP2512 - Assignment 2
-
-GitHub Classroom link: 
-
-Database Repository: 
-
-- [overview](#)
-- [milestone 1](milestone-01.md)
-- [milestone 2](milestone-02.md) Work In Progress
-- [milestone 3](milestone-03.md) Work In Progress
+# COMP3512 - Assign 02: Travel Photo Site
 
 ## Overview
 
 Assignment 2 takes assignment 1 and runs with it a bit. Instead of being an SPA (single page application), you now will be dealing with multiple pages driven by a database on the back end. With PHP serving up all responses. 
 
 What's not to like?
+
+Read [the assignment pdf](comp-3512-asg-2-fall-2021-version-1.pdf) to get a feel for what's ahead.
+
+## Milestones
+
+This is another large assignment. Like the first assignment, it has been broken down into 3 milestones.
+
+Here are the milestones (each has a link to the instruction doc for that milestone) and their deadlines:
+
+1. [Milestone 1](milestone-01.md): Due Nov 10 (W) @ 9:00 PM
+2. [Milestone 2](milestone-02.md): Due Nov 24 (W) @ 9:00 PM
+3. [Milestone 3](milestone-03.md): Due Dec 08 (W) @ 9:00 PM
 
 ## Hosting Requirements
 
@@ -35,10 +38,23 @@ Heroku is super-popular - and for good reason. It's been around since 2007. It h
 
 Because students traditionally leave this to the last minute and then are totally blindsided by how much time things take, I've decided to make getting things set up the focus of milestone 1. You will thank me for this experience eventually, but likely curse me in the moment. So be it.
 
-## Teamwork
+### Group Work
 
-Some of you had some ... experiences ... with teammates with the last assignment.
+The first milestone will be completed on your own.
 
-Yup.
+After the first milestone has been submitted, you will be placed in groups according to the time you submitted your work, the level of completion of that work, and some further restrictions. The remaining work in this assignment will be done together with your group.
 
-For this assignment
+## Starting Files
+
+You can grab the starting template for this assignment by accepting this GitHub Classroom Assignment: https://classroom.github.com/a/iXeR-vEp
+
+There's not much here - just a README.txt that you'll need to fill out - everything else will be created by you.
+
+
+## Submission
+
+Submission instructions are provided in each of the [milestones](#milestones).
+
+## Grading
+
+Grading information is provided in each of the [milestones](#milestones).
