@@ -33,11 +33,11 @@ Straightforward stuffs:
 
 These requirements **cannot** be postponed through the use of Perks:
 
-- [ ] the site is hosted through Heroku and connected to your GitHub Classroom Assignment
+- [ ] the site is hosted through Heroku
 
-- [ ] the `README.txt` file contains your name and the Heroku URL you wish me to mark
+- [ ] the code for your site is in the GitHub Classroom repo you accept
 
-- [ ] the URL provided in the README goes to the Home page (see section below)
+- [ ] the `README.txt` file contains your name and a working link to the Heroku URL you wish me to mark. This link must go to the Home page (see that section below).
 
 ## Perkable Requirements
 
