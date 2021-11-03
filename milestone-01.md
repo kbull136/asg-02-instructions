@@ -18,7 +18,7 @@ There **is** some stuff I expect you to do on your own first:
 1. create an account on [Heroku](https://www.heroku.com/)
 2. install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 
-After that's done, you can follow along with [this screencast (not yet available)](#) I made about how to get work from your local repo to Heroku.
+After that's done, you can follow along with [this screencast (29:37)](https://youtu.be/r_Ft9TnUTkQ) I made about how to get work from your local repo to Heroku.
 
 
 ## Your Mark
