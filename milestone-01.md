@@ -101,6 +101,10 @@ By spending one Perk, you can extend your submission deadline **for a single req
 
 Please have your final work ready on `main` - this way, I can use GitHub's code revision tools easily. You might find it useful to create branches for features you add and then merge them back on to `main` when they're complete - that way, `main` will always be the version ready to be submitted.
 
+**Don't forget that you need to push to BOTH github AND heroku! The first is so I can see your code; the second is so I can see your web page!**
+
+Please use a commit message that will indicate to me that that commit is your submission. We're both reasonable adults - as long as it's clear, I don't care what it says exactly. If you need to do another submit before the deadline, just make that clear from your message. I'll take the last submission before the deadline as your "official submit".
+
 You know from the work you've done on the first assignment that handling your work on GitHub with even just one teammate can be challenging. I urge you to become familiar with standard Git team practices both to reduce the issues you have on _this_ assignment and to help you gain experience that will be useful in your future career.
 
 Using the [GitHub flow](https://guides.github.com/introduction/flow/) is likely the easiest such practice. Here's the [first tutorial video (13:50)](https://www.youtube.com/watch?v=GgjIvUrOpmg) that popped up when I searched for "github flow tutorial". It seems pretty nice.
