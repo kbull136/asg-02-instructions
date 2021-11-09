@@ -10,7 +10,7 @@
 
 _A. If there's a conflict, milestone instructions trump things in the pdf. The pdf serves as a general overview of the assignment (and I also use it to help me generate the milestones)._
 
-**Q.Do we need to pull all pages in `.php` files, even if those files only contain html?**
+**Q. Do we need to pull all pages in `.php` files, even if those files only contain html?**
 
 _A. Pages that don't need any PHP currently (like the Home page) will need PHP later, so it'd be easiest to just make everything a PHP file now._
 
