@@ -48,10 +48,11 @@ By spending one Perk, you can extend your submission deadline **for a single req
 > _Yes, you can spend multiple Perks to extend deadlines for multiple requirements._  
 > _No, you cannot spend multiple Perks to extend a single deadline longer than 48 hours._  
 
-
 - [ ] all CSS on the site is declared valid by the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 - [ ] all HTML on the site is declared valid by the [W3C Markup Validation Service](https://validator.w3.org/)
+
+- [ ] all image files are hosted through Cloudinary
 
 ### The Home Page (not logged in state)
 
