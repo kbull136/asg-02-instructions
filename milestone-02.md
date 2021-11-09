@@ -4,6 +4,10 @@
 
 **Worth 5% of your final grade**
 
+**starting GitHub team assignment link**: https://classroom.github.com/a/bEkGuriD
+
+**Make sure you move the resulting directory into your XAMPP htdocs directory!**
+
 ## Your Mark
 
 In an attempt to learn from past experience, I am modifying how this milestone is marked.

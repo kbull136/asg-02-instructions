@@ -44,12 +44,6 @@ The first milestone will be completed on your own.
 
 After the first milestone has been submitted, you will be placed in groups according to the time you submitted your work, the level of completion of that work, and some further restrictions. The remaining work in this assignment will be done together with your group.
 
-## Starting Files
-
-You can grab the starting template for this assignment by accepting this GitHub Classroom Assignment: https://classroom.github.com/a/iXeR-vEp
-
-There's not much here - just a README.txt that you'll need to fill out - everything else will be created by you.
-
 
 ## Submission
 

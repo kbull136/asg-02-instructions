@@ -9,3 +9,9 @@ Initial upload.
 ### 2021-11-03
 
 Clarify submission procedure.
+
+### 2021-11-09
+
+Add FAQ.
+Add milestone 2.
+Revise team doc.
