@@ -38,3 +38,9 @@ _A. That'll depend on what libraries you're talking about. If folks want to use 
 
  _A. A button or link is fine. The actual login page ain't coming until milestone 3._
 
+ **Q. On the milestone 1 instructions it says to validate the html pages. Well I only have PHP pages and when I put the code into the validator it gives me an error message because I cannot use PHP in the html.**
+
+ _A. If you have your stuff up on Heroku, the validation will work (as long as choose 'Validate by URI')._
+
+ _If you want to validate your local work because you're not ready to push it to Heroku, then you can load your local page in the browser and copy-pasta from the 'View page source' option in your browser._
+
