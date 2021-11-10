@@ -35,8 +35,6 @@ These requirements **cannot** be postponed through the use of Perks:
 
 - [ ] the site is hosted through Heroku
 
-- [ ] all image files are hosted on Cloudinary
-
 - [ ] the code for your site is in the GitHub Classroom repo you accept
 
 - [ ] the `README.txt` file contains your name and a working link to the Heroku URL you wish me to mark. This link must go to the Home page (see that section below).
