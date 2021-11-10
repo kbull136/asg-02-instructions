@@ -51,3 +51,7 @@ _A. Consider this project a portfolio piece (it is). If you showed it to a poten
 **Q. What timezone should the time on the About page be showing in?**
 
 _A. I want to be able to look at my computer's clock and see that it shows the same time (within a minute or so) as the time on your site._
+
+**Q. How can I tell if my day/hour/minute calc is correct?**
+
+_A. There are lots of tools out there. I'm checking your work with https://www.timeanddate.com/date/durationresult.html ._
