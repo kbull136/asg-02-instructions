@@ -273,6 +273,14 @@ You should **ignore** (for this milestone) the second and third paragraphs in th
 
 - [ ] when the form is submitted, it redirects to another page displaying the contents of the fields that were submitted, kind of like was done in tutorial-08. (This will NOT happen in milestone 3 - it's just for this milestone.)
 
+#### if you have the textbook and/or labs
+
+Section 9.5 (Forms in JavaScript) will be pretty useful here, as is ex 9.13 (Working with Forms) in Lab 9.
+
+If you don't have these resources, you will find it fairly straightforward to find resources to help you...there may be _too_ many out there, to be honest!
+
+
+
 ---
 
 ### The Countries API Requirements

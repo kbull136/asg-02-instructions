@@ -44,3 +44,14 @@ _A. That'll depend on what libraries you're talking about. If folks want to use 
 
  _If you want to validate your local work because you're not ready to push it to Heroku, then you can load your local page in the browser and copy-pasta from the 'View page source' option in your browser._
 
+**Q. What does the "technologies used" mean?**
+
+_A. Consider this project a portfolio piece (it is). If you showed it to a potential employer, consider these technologies things you could say "I know how to 'do' this - and this site is proof of that"._
+
+**Q. What timezone should the time on the About page be showing in?**
+
+_A. I want to be able to look at my computer's clock and see that it shows the same time (within a minute or so) as the time on your site._
+
+**Q. How can I tell if my day/hour/minute calc is correct?**
+
+_A. There are lots of tools out there. I'm checking your work with https://www.timeanddate.com/date/durationresult.html ._

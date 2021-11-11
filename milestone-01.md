@@ -35,8 +35,6 @@ These requirements **cannot** be postponed through the use of Perks:
 
 - [ ] the site is hosted through Heroku
 
-- [ ] all image files are hosted on Cloudinary
-
 - [ ] the code for your site is in the GitHub Classroom repo you accept
 
 - [ ] the `README.txt` file contains your name and a working link to the Heroku URL you wish me to mark. This link must go to the Home page (see that section below).
@@ -83,7 +81,7 @@ By spending one Perk, you can extend your submission deadline **for a single req
 
 - [ ] this page displays the current date and time. PHP must be used to accomplish this.
 
-- [ ] this page displays how many days, hours, and minutes are left until milestone 3 is due (assume it's due December 8 @ 9:00 PM). This is not a countdown timer - just how much time is left at the time this page is output by the server. PHP must be used to accomplish this.
+- [ ] this page displays how many days, hours, and minutes are left until milestone 3 is due (assume it's due December 8 @ 9:00 PM). **This does not mean how many days, then how many minutes/seconds that many days are. It means display the remaining time in days, hours, and minutes.** This is not a countdown timer - just how much time is left at the time this page is output by the server. PHP must be used to accomplish this.
 
 - [ ] when viewed in Chrome's devtools at Mobile L size (425px) and Laptop L size (1440px), this page has a reasonable layout
 
