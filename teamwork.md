@@ -6,27 +6,18 @@ I have grouped folks up as described before, respecting the OLPN requests I rece
 
 These groups have been mixed up a bit - just because you're at the top of the list here doesn't mean that you were one of the first to complete milestone 1.
 
-| Team # | Name | Name | Name | Name |
-| ------ | ---- | ---- | ---- | ---- |
-| 1      | xxx  | xxx  |      |      |
-| 2      | xxx  | xxx  |      |      |
-| 3      | xxx  | xxx  |      |      |
-| 4      | xxx  | xxx  |      |      |
-| 5      | xxx  | xxx  |      |      |
-| 6      | xxx  | xxx  |      |      |
-| 7      | xxx  | xxx  |      | xxx  |
-| 8      | xxx  | xxx  |      |      |
-| 9      | xxx  | xxx  |      |      |
-| 10     | xxx  | xxx  |      |      |
-| 11     | xxx  | xxx  | xxx  |      |
-| 12     | xxx  | xxx  |      |      |
-| 13     | xxx  | xxx  |      |      |
-| 14     | xxx  | xxx  |      |      |
-| 15     | xxx  | xxx  |      |      |
-| 16     | xxx  | xxx  |      |      |
-| 17     | xxx  | xxx  |      |      |
-| 18     | xxx  | xxx  |      |      |
-| 19     | xxx  | xxx  |      |      |
+| Team # | Name       | Name     | Name     | Name     |
+| ------ | ---------- | -------- | -------- | -------- |
+| 1      | Edward     | Dustin   | Daniel Y | Shreshth |
+| 2      | Taylor     | Duc      | Chris    | Cale     |
+| 3      | Carter     | Thal     | Jon      | Josh     |
+| 4      | Muhammad A | Colin    | Dominic  | Gurvir   |
+| 5      | Jas        | Huda     | Yaseen   | David    |
+| 6      | Marco      | Daniel B | Haider   | Haley    |
+| 7      | Dianne     | Qadeer   | Maira    | Mo       |
+| 8      | Erika      | Sidhant  |          |          |
+| 9      | Shargeel   | Keen     | Kyle     |          |
+| 10     | Therese    | Ken      | Sartaj   | Brayden  |
 
 
 I will send out emails to each pair so that they at least know each other's email address to start with.
