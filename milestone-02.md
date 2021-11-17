@@ -34,7 +34,6 @@ For a section to be considered "completed", **ALL** requirements in that section
 | 55% req's + TWO of Country, City, Photo        | 90       |
 | All req's                                      | 100      |
 
-
 ## About The "Look" of Your Site
 
 The blurb from page 2 of the assignment pdf says it all:
@@ -44,6 +43,16 @@ The blurb from page 2 of the assignment pdf says it all:
 I'll stress that _submitting something that looks like the sketches is a bad idea_. I should have made this clear in assignment 1. Here I am, learning from my mistakes!
 
 **Takeaway: While the look of your site can be put on the back burner until milestone 3, that look will play a non-trivial role in your mark of milestone 3. If you want me to provide you with some quick feedback about your visual design, I can.**
+
+## Restrictions (NEW: 2021-11-17)
+
+- The **only** data you're allowed to cache in this milestone is the country data you pull in from your own API.
+
+- You are **not** allowed to pull in any data from Randy's API from assignment 1, nor create another API to access other data necessary for this assignment.
+
+  > _The reasoning here is that you've already had experience doing API consumption in assignment 1. It's now time to gain experience from pulling in data from your own back-end sources using PHP._
+
+- Since you're allowed to cache the country data, you are allowed to populate the Country List (in both the Country and City pages) and the Country Details (in the Country Page) via JS if you wish. All other data population must be done through PHP.
 
 ## Non-Perkable Requirements
 
@@ -59,7 +68,7 @@ These requirements **cannot** be postponed through the use of Perks:
 
 ## Perkable Requirements
 
-These requirements **can** be postponed through use of Perks. 
+These requirements **can** be postponed through use of Perks.
 
 I want to tweak the system a bit. In this milestone (and likely the next), all members of the group can pool their Perks together. The cost for getting extensions now depends on the the number of extensions being requested and the number of group members:
 
@@ -73,10 +82,10 @@ I want to tweak the system a bit. In this milestone (and likely the next), all m
 
 If you ask for extensions, I will now need to know **who** is paying **how many** Perks!
 
-> _Say you're in a group with 3 members._ 
-> 
+> _Say you're in a group with 3 members._
+>
 > _Member A has 2 Perks, Member B has 4, and Member C has 4. They have 2 + 4 + 4 = 10 Perks to spend on extensions._
-> 
+>
 > _If they decide they need 4 extensions, they'd have to pay 7 Perks and let me know who is paying what. (Like, "A will pay 1 and B and C will pay 3 each.")_
 
 ### Validation Requirements
@@ -133,19 +142,19 @@ _I will mangle the URL to reach this page and then begin checking these requirem
 
 - [ ] all country details, as outlined in the assignment pdf, are present for the current country. All details are generated via PHP, not JS.
 
-    > _if the query string parameter is non-existent, the country details section should show no data_
+  > _if the query string parameter is non-existent, the country details section should show no data_
 
 - [ ] a list of cities for the current country are present, each city hyperlinking to the `single-city.php` page with an appropriate query string parameter
 
-    > _if the query string parameter is non-existent, the city list section should show no data_
-    
+  > _if the query string parameter is non-existent, the city list section should show no data_
+
 - [ ] if photos are available for the current country, they are displayed in a well-presented fashion.
 
   > _The sizes can be changed from the restrictions presented in assignment 1, but all images **must** be hosted on Cloudinary and **must** be resized so that the user isn't pulling down unnecessarily large image files!_
 
 - [ ] if photos are **not** available for the current country, that fact is indicated in a clear and well-presented way
 
-    > _if the query string parameter is non-existent, the photos section should show no data_
+  > _if the query string parameter is non-existent, the photos section should show no data_
 
 - [ ] each photo present hyperlinks to the `single-photo.php` page with an appropriate query string parameter
 
@@ -185,7 +194,7 @@ _I will mangle the URL to reach this page and then begin checking these requirem
 
 - [ ] all city details, as outlined in the assignment pdf, are present for the current city. All details are generated via PHP.
 
-    > _if the query string parameter is non-existent, the city details section should show no data_
+  > _if the query string parameter is non-existent, the city details section should show no data_
 
 - [ ] the static country map described in the assignment pdf is present for the current city
 
@@ -199,7 +208,7 @@ _I will mangle the URL to reach this page and then begin checking these requirem
 
 - [ ] if photos are **not** available for the current city, that fact is indicated in a clear and well-presented way
 
-    > _if the query string parameter is non-existent, the photos section should show no data_
+  > _if the query string parameter is non-existent, the photos section should show no data_
 
 - [ ] each photo hyperlinks to the `single-photo.php` page with an appropriate query string parameter
 
@@ -279,8 +288,6 @@ Section 9.5 (Forms in JavaScript) will be pretty useful here, as is ex 9.13 (Wor
 
 If you don't have these resources, you will find it fairly straightforward to find resources to help you...there may be _too_ many out there, to be honest!
 
-
-
 ---
 
 ### The Countries API Requirements
@@ -290,15 +297,14 @@ If you don't have these resources, you will find it fairly straightforward to fi
 - [ ] if you go to `api-countries.php?iso=xx` in the browser, you are provided with JSON representing the country with iso=xx
 
 - [ ] data from both endpoints is valid JSON (you can find online validators to help you be sure)
-  
----
 
+---
 
 ## Read This, Or Suffer Madness
 
-While very much like parts of assignment 1, you can't just copy/paste your code from assignment 1 into the Country, City, and Photo pages and call it a day. 
+While very much like parts of assignment 1, you can't just copy/paste your code from assignment 1 into the Country, City, and Photo pages and call it a day.
 
-Far from it. 
+Far from it.
 
 Here are some important differences provided in the [assignment pdf](randy-original-2019-04-asg2-v1.pdf) that you can find if you read carefully, but that I'm providing here as a PSA:
 
@@ -307,25 +313,27 @@ Here are some important differences provided in the [assignment pdf](randy-origi
 #### Country Page
 
 The only ways you can actually reach the Country Page in milestone 2 are:
-  - getting there from the Header menu
-  - getting there from the Photo Page
-  - getting there by clicking a country name on the Country Page or City Page
-  - cutting the [Gordian Knot](https://en.wikipedia.org/wiki/Gordian_Knot) by mangling the URL and adding a valid query string to take you to the country you want to view
+
+- getting there from the Header menu
+- getting there from the Photo Page
+- getting there by clicking a country name on the Country Page or City Page
+- cutting the [Gordian Knot](https://en.wikipedia.org/wiki/Gordian_Knot) by mangling the URL and adding a valid query string to take you to the country you want to view
 
 #### City Page
 
 The only ways you can actually reach the City Page in milestone 2 are:
-  - getting there from the Header menu
-  - getting there from the Photo Page
-  - getting there by clicking a city name on the Country Page
-  - mangling the URL and adding a valid query string to take you to the city you want to view
+
+- getting there from the Header menu
+- getting there from the Photo Page
+- getting there by clicking a city name on the Country Page
+- mangling the URL and adding a valid query string to take you to the city you want to view
 
 #### Photo Page
 
 The only ways you can actually reach the Photo Page in milestone 2 are:
-  - getting there by clicking a photo on the Country Page or City Page
-  - mangling the URL and adding a valid query string to take you to the photo you want to view
 
+- getting there by clicking a photo on the Country Page or City Page
+- mangling the URL and adding a valid query string to take you to the photo you want to view
 
 ### data for the pages
 

@@ -19,3 +19,7 @@ Revise team doc.
 ### 2021-11-10
 
 Removed dupe Cloudinary (kept one for Perkable, 'cause it's kinder).
+
+### 2021-11-17
+
+Added Restrictions section.
