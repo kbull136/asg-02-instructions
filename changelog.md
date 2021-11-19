@@ -23,3 +23,7 @@ Removed dupe Cloudinary (kept one for Perkable, 'cause it's kinder).
 ### 2021-11-17
 
 Added Restrictions section.
+
+### 2021-11-18
+
+Add to FAQ (form validation q).
