@@ -27,7 +27,7 @@ For a section to be considered "completed", **ALL** requirements in that section
 
 | completed requirement sections                 | mark (%) |
 | ---------------------------------------------- | -------- |
-| Non-Perkable + Header + Validation             | 20       |
+| Non-Perkable + Header + Validation + Restrictions            | 20       |
 | 20% req's + Registration **or** Countries API  | 45       |
 | 20% req's + Registration **and** Countries API | 55       |
 | 55% req's + ONE of Country, City, Photo        | 75       |
@@ -46,13 +46,13 @@ I'll stress that _submitting something that looks like the sketches is a bad ide
 
 ## Restrictions (NEW: 2021-11-17)
 
-- The **only** data you're allowed to cache in this milestone is the country data you pull in from your own API.
+- [ ] The **only** data you're allowed to cache in this milestone is the country data you pull in from your own API.
 
-- You are **not** allowed to pull in any data from Randy's API from assignment 1, nor create another API to access other data necessary for this assignment.
+- [ ] You are **not** allowed to pull in any data from Randy's API from assignment 1, nor create another API to access other data necessary for this assignment.
 
   > _The reasoning here is that you've already had experience doing API consumption in assignment 1. It's now time to gain experience from pulling in data from your own back-end sources using PHP._
 
-- Since you're allowed to cache the country data, you are allowed to populate the Country List (in both the Country and City pages) and the Country Details (in the Country Page) via JS if you wish. All other data population must be done through PHP.
+- [ ] Since you're allowed to cache the country data, you are allowed to populate the Country List (in both the Country and City pages) and the Country Details (in the Country Page) via JS if you wish. All other data population must be done through PHP.
 
 ## Non-Perkable Requirements
 
