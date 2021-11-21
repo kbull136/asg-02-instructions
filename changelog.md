@@ -31,3 +31,8 @@ Add to FAQ (form validation q).
 ### 2021-11-20
 
 Update regarding city details added to milestone 2.
+
+### 2021-11-21
+
+Update the pdf to hold the correct city detail info.
+Update all links to the pdf.
