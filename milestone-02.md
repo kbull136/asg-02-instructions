@@ -192,7 +192,9 @@ _I will mangle the URL to reach this page and then begin checking these requirem
 
 - [ ] clicking on a country will cause this page to load the `single-country.php` page for that country
 
-- [ ] all city details, as outlined in the assignment pdf, are present for the current city. All details are generated via PHP.
+- [ ] all city details, as outlined in the assignment pdf, are present for the current city. All details are generated via PHP. 
+
+   - **UPDATE 2021-11-20**: The pdf has a copy-paste error in regards to city details. What should be shown in the details, is just like it was in assignment 1: name, population, elevation, and timezone.
 
   > _if the query string parameter is non-existent, the city details section should show no data_
 

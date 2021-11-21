@@ -27,3 +27,7 @@ Added Restrictions section.
 ### 2021-11-18
 
 Add to FAQ (form validation q).
+
+### 2021-11-20
+
+Update regarding city details added to milestone 2.
