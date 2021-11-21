@@ -25,14 +25,14 @@ I have separated requirements into the following sections:
 
 For a section to be considered "completed", **ALL** requirements in that section must be completed.
 
-| completed requirement sections                 | mark (%) |
-| ---------------------------------------------- | -------- |
-| Non-Perkable + Header + Validation + Restrictions            | 20       |
-| 20% req's + Registration **or** Countries API  | 45       |
-| 20% req's + Registration **and** Countries API | 55       |
-| 55% req's + ONE of Country, City, Photo        | 75       |
-| 55% req's + TWO of Country, City, Photo        | 90       |
-| All req's                                      | 100      |
+| completed requirement sections                    | mark (%) |
+| ------------------------------------------------- | -------- |
+| Non-Perkable + Header + Validation + Restrictions | 20       |
+| 20% req's + Registration **or** Countries API     | 45       |
+| 20% req's + Registration **and** Countries API    | 55       |
+| 55% req's + ONE of Country, City, Photo           | 75       |
+| 55% req's + TWO of Country, City, Photo           | 90       |
+| All req's                                         | 100      |
 
 ## About The "Look" of Your Site
 
@@ -110,7 +110,7 @@ _Since I don't want to check **every** page for valid HTML and CSS, I will inste
 
 ### The Country Page Requirements
 
-_An overview of the Country Page can be found on page 5 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-1.pdf)._
+_An overview of the Country Page can be found on page 5 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-2.pdf)._
 
 _You should read the [warnings at the bottom of this document](#read-this-or-suffer-madness) before reading these requirements._
 
@@ -162,7 +162,7 @@ _I will mangle the URL to reach this page and then begin checking these requirem
 
 ### The City Page Requirements
 
-_An overview of the City Page can be found on page 6 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-1.pdf)._
+_An overview of the City Page can be found on page 6 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-2.pdf)._
 
 _Make sure you read [the warnings below](#read-this-or-suffer-madness) - they are applicable here._
 
@@ -218,7 +218,7 @@ _I will mangle the URL to reach this page and then begin checking these requirem
 
 ### The Photo Page Requirements
 
-_An overview of the Photo Page can be found on page 7 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-1.pdf)._
+_An overview of the Photo Page can be found on page 7 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-2.pdf)._
 
 _Make sure you read [the warnings below](#read-this-or-suffer-madness) - they are applicable here._
 
@@ -262,7 +262,7 @@ _I will mangle the URL to reach this page and then begin checking these requirem
 
 ### The Registration/Signup Page Requirements
 
-_An overview of the Registration Page can be found on page 11 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-1.pdf)._
+_An overview of the Registration Page can be found on page 11 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-2.pdf)._
 
 You should **ignore** (for this milestone) the second and third paragraphs in the Registration/Signup page description. Instead, these are the requirements for this milestone:
 
