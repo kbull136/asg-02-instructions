@@ -6,6 +6,10 @@
 
 _A. I'd like to see people get some practice using JS, so although the "built-in" validation in HTML5 these days is good, I want to see "built from scratch"._
 
+**Q. Are we able to reuse and adapt code from assignment 1 if it was written by our partner for assignment 1?**
+
+_A. Treat the code like any other that didn't get birthed from your own noggin: attribute it._
+
 ## Milestone 1
 
 **Q. Should all images be hosted on Cloudinary? Including logo?**
