@@ -6,12 +6,7 @@
 
 **Worth 15% of your final grade**
 
-*Holy cow I think we're gonna make it!*
-
-## Bad Things
-
-- mysqli
-
+*Holy cow - I think we're gonna make it!*
 
 ## Your Mark
 
@@ -33,14 +28,14 @@ I have separated requirements into the following sections (the ⚠ denotes eithe
 
 For a section to be considered "completed", **ALL** requirements in that section must be completed.
 
-| completed requirement sections                             | mark |
-| ---------------------------------------------------------- | ---- |
-| Non-Perkable + Header + Validation + API                   | F+   |
-| F+ req's + Country, City, and Photo Pages                  | D+   |
-| D+ req's + Home + Login                                    | C    |
-| C req's + Visual Design +  Registration                    | B    |
-| B req's + Best Practices + ONE of Favorites, Browse/Search | A    |
-| All req's                                                  | A+   |
+| completed requirement sections                                 | mark |
+| -------------------------------------------------------------- | ---- |
+| Non-Perkable + Header + Validation + API                       | F+   |
+| F+ req's + Country, City, and Photo Pages                      | D+   |
+| D+ req's + Home + Login                                        | C    |
+| C req's + Visual Design + Registration                         | B    |
+| B req's + Best Practices + **one** of Favorites, Browse/Search | A    |
+| All req's                                                      | A+   |
 
 
 
@@ -60,6 +55,7 @@ These requirements **cannot** be postponed through the use of Perks:
 
 - [ ] You only populate the Country List and Country Details using JS; all other data that **can** be pulled in from the database **is** pulled in from the database and presented via PHP.
 
+- [ ] All DB access is via PDO. No mysqli is used.
 
 
 ## Perkable Requirements
@@ -75,6 +71,8 @@ The cost for getting extensions  depends on the the number of extensions being r
 | 3            | 4             | 6             |
 | 4            | 7             | 10            |
 | 5            | 11            | 15            |
+| 6            | 16            | 21            |
+| 7            | 22            | 28            |
 
 If you ask for extensions, I will now need to know **who** is paying **how many** Perks!
 
@@ -88,7 +86,7 @@ If you ask for extensions, I will now need to know **who** is paying **how many*
 
 ## Visual Design Requirements
 
-- [ ] The visual design looks like at least _some_ effort was made to make things look _somewhat_ reasonable.
+- [ ] The visual design looks presentable enough to become a portfolio piece.
 
 > _I get that people are uber-busy on the back-end, coding up the codez. But you really **do** have to expend at least a *bit* of effort making things look presentable._
 >  
