@@ -106,7 +106,7 @@ _Since I don't want to check **every** page for valid HTML and CSS, I will inste
 
 - [ ] the navigation menu is a "standard" menu at Laptop L size
 
-- [ ] the navigation menu contains working links to the Home, About, Country, City, Photo, and Registration pages
+- [ ] the navigation menu contains working links to the Home, About, Country, ~~City~~, Photo, and Registration pages
 
 ### The Country Page Requirements
 
@@ -192,7 +192,7 @@ _I will mangle the URL to reach this page and then begin checking these requirem
 
 - [ ] clicking on a country will cause this page to load the `single-country.php` page for that country
 
-- [ ] all city details, as outlined in the assignment pdf, are present for the current city. All details are generated via PHP. 
+- [ ] all city details, as outlined in the assignment pdf, are present for the current city. All details are generated via PHP.
 
   > _if the query string parameter is non-existent, the city details section should show no data_
 
@@ -323,7 +323,7 @@ The only ways you can actually reach the Country Page in milestone 2 are:
 
 The only ways you can actually reach the City Page in milestone 2 are:
 
-- getting there from the Header menu
+- ~~getting there from the Header menu~~
 - getting there from the Photo Page
 - getting there by clicking a city name on the Country Page
 - mangling the URL and adding a valid query string to take you to the city you want to view

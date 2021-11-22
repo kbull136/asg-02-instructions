@@ -39,4 +39,4 @@ Update all links to the pdf.
 
 ### 2021-11-22
 
-Add to FAQ.
+Add to FAQ. (Questions about using asg1 code and starting data errors.)
