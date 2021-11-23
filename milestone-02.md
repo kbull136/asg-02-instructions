@@ -106,7 +106,9 @@ _Since I don't want to check **every** page for valid HTML and CSS, I will inste
 
 - [ ] the navigation menu is a "standard" menu at Laptop L size
 
-- [ ] the navigation menu contains working links to the Home, About, Country, ~~City~~, Photo, and Registration pages
+- [ ] the navigation menu contains working links to the Home, About, Country, ~~City~~, ~~Photo~~, and Registration pages
+
+  > _**Note from JP (2021-11-22)**: I've turfed City and Photo for this milestone because they don't make sense, given the constraints on when those pages are displayed! If you have them in your current work, you can keep them there or not - I'll be testing those pages by mangling the URL._
 
 ### The Country Page Requirements
 
@@ -234,9 +236,11 @@ _I will mangle the URL to reach this page and then begin checking these requirem
 
   > _A Cloudinary transformation must be used to achieve this - you cannot just use CSS to shoehorn an improperly-sized image onto the page._
 
-- [ ] In addition to the photo itself, the title, user name (not optional this time!), city, and country are also displayed. All details are generated via PHP.
+- [ ] In addition to the photo itself, the title, ~~user name (not optional this time!)~~, city, and country are also displayed. All details are generated via PHP.
 
   > _**comment from JP**: there **is** a user field in the image objects you get back from the API. It is not optional this go-round because it actually does represent a user of our website!._
+
+  > _**a comment on my previous comment(2021-11-22)**: I did not provide you with a file that has the User data! Face palmed. You can ignore the User display requirement **for this milestone** - it **definitely** will be a requirement in milestone 3!_
 
 - [ ] the city name shown on the page hyperlinks to the `single-city.php` page with an appropriate query string parameter
 
