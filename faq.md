@@ -6,6 +6,14 @@
 
 _A. I'd like to see people get some practice using JS, so although the "built-in" validation in HTML5 these days is good, I want to see "built from scratch"._
 
+**Q. Are we able to reuse and adapt code from assignment 1 if it was written by our partner for assignment 1?**
+
+_A. Treat the code like any other that didn't get birthed from your own noggin: attribute it._
+
+**Q. I think the cities, imagedetails, and languages data files are busted. Was that on purpose?!?**
+
+_A. No. I apparently created those a bit hastily and was not assigning the arrays to variables and had missed the ending semicolons to boot. I've placed the fixed files at https://github.com/MRU-CSIS-3512-202104-001/asg-2-group-start, so you can grab the data from there if you'd like._
+
 ## Milestone 1
 
 **Q. Should all images be hosted on Cloudinary? Including logo?**

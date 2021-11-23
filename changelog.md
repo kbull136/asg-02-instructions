@@ -36,3 +36,7 @@ Update regarding city details added to milestone 2.
 
 Update the pdf to hold the correct city detail info.
 Update all links to the pdf.
+
+### 2021-11-22
+
+Add to FAQ. (Questions about using asg1 code and starting data errors.)
