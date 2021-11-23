@@ -6,7 +6,7 @@ Assignment 2 takes assignment 1 and runs with it a bit. Instead of being an SPA 
 
 What's not to like?
 
-Read [the assignment pdf](comp-3512-asg-2-fall-2021-version-2.pdf) to get a feel for what's ahead.
+Read [the assignment pdf](comp-3512-asg-2-fall-2021-version-3.pdf) to get a feel for what's ahead.
 
 ## Milestones
 

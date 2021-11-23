@@ -147,7 +147,7 @@ I will assume you haven't busted anything from milestone 1, so will only be look
 
 ### The Country Page Requirements
 
-_An overview of the Country Page can be found on page 5 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-2.pdf)._
+_An overview of the Country Page can be found on page 5 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-3.pdf)._
 
 - [ ] the file for this page is named **single-country.php**
 
@@ -195,7 +195,7 @@ _An overview of the Country Page can be found on page 5 of the [assignment pdf](
 
 ### The City Page Requirements
 
-_An overview of the City Page can be found on page 6 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-2.pdf)._
+_An overview of the City Page can be found on page 6 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-3.pdf)._
 
 - [ ] the file for this page is named **single-city.php**
 
@@ -221,7 +221,7 @@ _An overview of the City Page can be found on page 6 of the [assignment pdf](com
 
 - [ ] clicking on a country will cause this page to load the `single-country.php` page for that country
 
-- [ ] all city details, as outlined in the [assignment pdf](comp-3512-asg-2-fall-2021-version-2.pdf), are present for the current city. All details are generated via PHP. 
+- [ ] all city details, as outlined in the [assignment pdf](comp-3512-asg-2-fall-2021-version-3.pdf), are present for the current city. All details are generated via PHP. 
 
   > _if the query string parameter is non-existent, the city details section should show no data_
 
@@ -245,7 +245,7 @@ _An overview of the City Page can be found on page 6 of the [assignment pdf](com
 
 ### The Photo Page Requirements
 
-_An overview of the Photo Page can be found on page 7 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-2.pdf)._
+_An overview of the Photo Page can be found on page 7 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-3.pdf)._
 
 - [ ] the file for this page is named **single-photo.php**
 
@@ -289,7 +289,7 @@ _An overview of the Photo Page can be found on page 7 of the [assignment pdf](co
 
 ### The Registration/Signup Page Requirements
 
-_An overview of the Registration Page can be found on page 11 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-2.pdf)._
+_An overview of the Registration Page can be found on page 11 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-3.pdf)._
 
 - [ ] a registration form containing the fields in the sketch on page 11 is displayed
 
