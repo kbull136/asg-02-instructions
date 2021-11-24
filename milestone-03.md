@@ -1,12 +1,10 @@
 # Assignment 02 - Milestone 03
 
-# not complete yet!
-
 **Due December 8 (W) @ 9 PM**
 
 **Worth 15% of your final grade**
 
-*Holy cow - I think we're gonna make it!*
+_Holy cow - I think we're gonna make it!_
 
 ## About These Instructions
 
@@ -18,36 +16,35 @@ If you watch the instructions repo through the watch menu on GitHub (shown below
 
 ## Your Mark
 
-I have separated requirements into the following sections (the ⚠ denotes either a new requirement or a requirement that has changed significantly since milestone 2):
+I have separated requirements into the following sections (the ⚠ denotes either a new requirement or a requirement that has changed significantly since milestone 2). _Other minor changes from milestone 2 are likely present as well, so I think reading through all of these to be safe is a good idea._
 
 1. [Non-Perkable Requirements](#non-perkable-requirements) ⚠
-2. [Visual Design Requirements](#the-visual-design-requirements) ⚠ 
+2. [Visual Design Requirements](#the-visual-design-requirements) ⚠
 3. [Validation Requirements](#validation-requirements)
 4. [Header Requirements](#the-header-requirements) ⚠
 5. [Home Requirements](#the-home-page-requirements) ⚠
 6. [Country Page Requirements](#the-country-page-requirements)
-7. [City Page Requirements](#the-city-page-requirements) 
+7. [City Page Requirements](#the-city-page-requirements)
 8. [Photo Page Requirements](#the-photo-page-requirements) ⚠
-9.  [Favorites Page Requirements](#the-favorites-page-requirements) ⚠
+9. [Favorites Page Requirements](#the-favorites-page-requirements) ⚠
 10. [About Page Requirements](#the-about-page-requirements) ⚠
 11. [Browse/Search Page Requirements](#the-browsesearch-page-requirements) ⚠
 12. [Login Page Requirements](#the-login-page-requirements) ⚠
 13. [Registration/Signup Page Requirements](#the-registrationsignup-page-requirements) ⚠
 14. [Logout Requirements](#the-logout-requirements) ⚠
 15. [Countries API Requirements](#the-countries-api-requirements)
+16. [Best Practice Requirements](#the-best-practice-requirements) ⚠
 
 For a section to be considered "completed", **ALL** requirements in that section must be completed.
 
 | completed requirement sections                                 | mark | range  |
 | -------------------------------------------------------------- | ---- | ------ |
-| Non-Perkable & Header & Validation & API & About               | F+   | 25-49  |
-| F+ req's & Country, City, and Photo Pages                      | D+   | 55-59  |
-| D+ req's & Home (logged in & out versions) & Login & Logout    | C    | 63-66  |
-| C req's & Visual Design & Registration                         | B    | 73-76  |
-| B req's & Best Practices & **one** of Favorites, Browse/Search | A    | 85-94  |
+| Non-Perkable **&** Header **&** Validation **&** API **&** About               | F+   | 25-49  |
+| F+ req's **&** Country, City, and Photo Pages                      | D+   | 55-59  |
+| D+ req's **&** Home (logged in **&** out versions) **&** Login **&** Logout    | C    | 63-66  |
+| C req's **&** Visual Design **&** Registration                         | B    | 73-76  |
+| B req's **&** Best Practices **&** **one** of Favorites, Browse/Search | A    | 85-94  |
 | All req's                                                      | A+   | 95-100 |
-
-
 
 ## Non-Perkable Requirements
 
@@ -63,22 +60,25 @@ These requirements **cannot** be postponed through the use of Perks:
 
 - [ ] You only cache country data - and you pull it in from your own API.
 
-- [ ] You only populate the Country List and Country Details using JS; all other data that **can** be pulled in from the database **is** pulled in from the database and presented via PHP.
+- [ ] You only populate the Country List (and possible Country Details) using JS; all other data that **can** be pulled in from the database **is** pulled in from the database and presented via PHP.
+
+- [ ] All data used on the site must come from a mySQL database populated through the script `travel-3rd.sql`.
+
+  > _further information on the database is provided in the [Database Details](database-details.md) document_
 
 - [ ] All DB access is via PDO. No mysqli is used.
 
 - [ ] Prepared statements must be used for any database query that involves query string data.
 
-- [ ] No `alert()`s are used on the site.
+- [ ] No `alert()s` are used on the site.
 
   > _seriously...I HATE those things!_
-
 
 ## Perkable Requirements
 
 These requirements **can** be postponed through use of Perks.
 
-The cost for getting extensions  depends on the the number of extensions being requested and the number of group members:
+The cost for getting extensions depends on the the number of extensions being requested and the number of group members:
 
 | # extensions | 2-memb cost | 3-memb cost | 4-memb cost | 5-memb cost |
 | ------------ | ----------- | ----------- | ----------- | ----------- |
@@ -102,19 +102,19 @@ If you ask for extensions, I will now need to know **who** is paying **how many*
 
 ### The Visual Design Requirements
 
-- [ ] The visual design is portfolio-level quality. Watch for generous use of whitespace, alignment of items, contrast of text in size and weight, good use of color (including accents), non-distorted images, etc.
+- [ ] The visual design is portfolio-level quality. I'll be looking for generous use of whitespace, alignment of items, contrast of text in size and weight, good use of color (including accents), non-distorted images, etc.
 
 > _I get that people are uber-busy on the back-end, coding up the codez. But you really **do** have to expend at least a *bit* of effort making things look presentable._
->  
-> _So if you want to use a framework of some kind to help with this, that's fine. I'm not asking for too much...but it shouldn't look like no effort was applied. This is supposed to be something you can proudly put in your portfolio - and should look accordingly professional._
-> 
-> _I'll pop my head onto your sites from time-to-time to provide suggestions for improvement - that way, you'll have time to adjust things before the deadline._
+>
+> _If you want to use a framework of some kind to help with this, that's fine. I'm not asking for too much...but it shouldn't look like minimal effort was applied and that visual design was an afterthought. This project is supposed to be something you can proudly put in your portfolio - and should look accordingly professional._
+>
+> _I'll pop my head onto your sites from time to time to provide suggestions for improvement - that way, you'll have time to adjust things before the deadline._
 
 ---
 
 ### The Validation Requirements
 
-_Since I don't want to check **every** page for valid HTML and CSS, I will instead use the Goddess of Fate to decide: I will randomly choose ONE page to check for HTML violations and ONE page to check for CSS violations._
+_Since I don't want to check **every** page for valid HTML and CSS, I will instead let the Goddess of Fate decide: I will **randomly** choose ONE page to check for HTML violations and ONE page to check for CSS violations._
 
 _**If I go to a valid URL and the page is not present, that will count as an unmet requirement!**_
 
@@ -126,26 +126,28 @@ _**If I go to a valid URL and the page is not present, that will count as an unm
 
 ### The Header Requirements
 
-- [ ] The Header has a logo appropriate for the site. (This is a travel photo site...)
+- [ ] The Header has a logo appropriate for the site.
+
+  > _this is a **travel photo** site..._
 
 - [ ] The Header has a navigation menu.
 
-- [ ] The navigation menu is a "hamburger" menu at mobile L size (see notes about this in the pdf).
+- [ ] The navigation menu is a "hamburger" menu at mobile L size.
 
 - [ ] The navigation menu is a "standard" menu at Laptop L size.
 
 ##### ⚠ a significant new Header requirement
 
 - [ ] The navigation menu contains working links to the following pages:
-  
-    - Home (not logged in)
-    - Home (logged in) aka Profile
-    - About
-    - Browse/Search
-    - Countries
-    - Favorites (only if logged in, otherwise not present)
-    - Login/Logout (visibility appropriate to whether user is logged in or out)
-    - Registration/Sign Up (only if not logged in, otherwise not present)
+
+  - Home (when not logged in)
+  - Home (when logged in) *aka* Profile
+  - About
+  - Browse/Search
+  - Countries
+  - Favorites (only if logged in, otherwise not present)
+  - Login/Logout (visibility appropriate to whether user is logged in or out)
+  - Registration/Sign Up (only if not logged in, otherwise not present)
 
 ---
 
@@ -153,7 +155,7 @@ _**If I go to a valid URL and the page is not present, that will count as an unm
 
 #### not logged in version
 
-_An overview of the Home Page (not logged in version) can be found on page 3 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-3.pdf)._
+_An overview of the Home Page (not logged in version) can be found on page 3 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-4.pdf)._
 
 All requirements from milestone 1 are in effect.
 
@@ -161,20 +163,23 @@ All requirements from milestone 1 are in effect.
 
 - [ ] The ability to log in and sign up are now functioning.
 
-  > _see the Login and Registration pages for further details_
+  > _see the [Login](#the-login-page-requirements) and [Registration](#the-registration-page-requirements) Pages for further details_
 
-- [ ] The search box is now functioning - using it takes the user to the Browse/Search page and displays results as if they had performed a title search on that page.
-
+- [ ] The search box is now functioning - using it takes the user to the [Browse/Search Page](#the-browsesearch-page-requirements) and displays results as if they had performed a title search on that page.
 
 #### logged in version (aka the Profile Page)
 
+_An overview of the Home Page (not logged in version) can be found on page 4 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-4.pdf)._
+
 - [ ] The logged-in user's first name, last name, city, and country are nicely displayed.
 
-- [ ] Any photos that belong to a user are clearly and nicely displayed here.
+- [ ] Any photos that belong to a user are clearly visible and nicely displayed here.
 
   > _In previous versions of this assignment, users were able to upload photos. Even though this is not a requirement for this year, there are still users in the Users table that have photos belonging to them. Make sure you check your work for this requirement by logging in as one of those users!_
 
-- [ ] If the user has favorited any photos, they are clearly visible and nicely displayed here.
+- [ ] If the user has any favorited photos, they are clearly visible and nicely displayed here.
+
+  > _favorited photos are described initially in the [Photos Page](#the-photo-page-requirements)_
 
 - [ ] If the user has no favorited photos, that is nicely indicated.
 
@@ -186,13 +191,13 @@ All requirements from milestone 1 are in effect.
 
 ### The Country Page Requirements
 
-_An overview of the Country Page can be found on page 5 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-3.pdf)._
+_An overview of the Country Page can be found on page 5 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-4.pdf)._
 
 - [ ] The file for this page is named **single-country.php**.
 
 - [ ] If the query string parameter for this page is invalid in any way, the user is redirected to a generic error page. A non-existent query string is **not** invalid!
 
-- [ ] This page has a Header, as detailed in the [Header section](#the-header-requirements).
+- [ ] This page has a Header, as detailed in the [Header requirements](#the-header-requirements).
 
 - [ ] When viewed in Chrome's devtools at Mobile L size (425px) and Laptop L size (1440px), this page has a reasonable layout.
 
@@ -214,11 +219,11 @@ _An overview of the Country Page can be found on page 5 of the [assignment pdf](
 
 - [ ] All country details, as outlined in the assignment pdf, are present for the current country. _Since you've cached the country details, you can present them via JS if you wish._
 
-  > _if the query string parameter is non-existent, the country details section should show no data_
+  > _if the query string parameter is non-existent, this country details section should show no data_
 
-- [ ] A list of cities for the current country are present, each city hyperlinking to the `single-city.php` page with an appropriate query string parameter.
+- [ ] A list of cities for the current country are present, in alphabetical order, each city hyperlinking to the `single-city.php` page with an appropriate query string parameter.
 
-  > _if the query string parameter is non-existent, the city list section should show no data_
+  > _if the query string parameter is non-existent, this city list section should show no data_
 
 - [ ] If photos are available for the current country, they are displayed in a well-presented fashion.
 
@@ -226,7 +231,7 @@ _An overview of the Country Page can be found on page 5 of the [assignment pdf](
 
 - [ ] If photos are **not** available for the current country, that fact is indicated in a clear and well-presented way.
 
-  > _if the query string parameter is non-existent, the photos section should show no data_
+  > _if the query string parameter is non-existent, this photos section should show no data_
 
 - [ ] Each photo present hyperlinks to the `single-photo.php` page with an appropriate query string parameter.
 
@@ -234,11 +239,11 @@ _An overview of the Country Page can be found on page 5 of the [assignment pdf](
 
 ### The City Page Requirements
 
-_An overview of the City Page can be found on page 6 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-3.pdf)._
+_An overview of the City Page can be found on page 6 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-4.pdf)._
 
 - [ ] The file for this page is named **single-city.php**.
 
-- [ ] If the query string parameter for this page is invalid in any way, the user is redirected to a generic error page. ⚠ A non-existent query string **is** invalid!
+- [ ] If the query string parameter for this page is invalid in any way, the user is redirected to a generic error page. **A non-existent query string is invalid!**
 
 - [ ] This page has a Header, as detailed in the [Header section](#the-header-requirements).
 
@@ -260,7 +265,7 @@ _An overview of the City Page can be found on page 6 of the [assignment pdf](com
 
 - [ ] Clicking on a country will cause this page to load the `single-country.php` page for that country.
 
-- [ ] All city details, as outlined in the [assignment pdf](comp-3512-asg-2-fall-2021-version-3.pdf), are present for the current city. All details are generated via PHP. 
+- [ ] All city details, as outlined in the [assignment pdf](comp-3512-asg-2-fall-2021-version-4.pdf), are present for the current city. All details are generated via PHP.
 
 - [ ] The static country map described in the assignment pdf is present for the current city.
 
@@ -278,11 +283,11 @@ _An overview of the City Page can be found on page 6 of the [assignment pdf](com
 
 ### The Photo Page Requirements
 
-_An overview of the Photo Page can be found on page 7 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-3.pdf)._
+_An overview of the Photo Page can be found on page 7 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-4.pdf)._
 
 - [ ] The file for this page is named **single-photo.php**.
 
-- [ ] If the query string parameter for this page is invalid in any way, the user is redirected to a generic error page. A non-existent query string **is** invalid.
+- [ ] If the query string parameter for this page is invalid in any way, the user is redirected to a generic error page. **A non-existent query string is invalid.**
 
 - [ ] This page has a Header, as detailed in the [Header section](#the-header-requirements).
 
@@ -294,7 +299,7 @@ _An overview of the Photo Page can be found on page 7 of the [assignment pdf](co
 
 - [ ] In addition to the photo itself, the title, user name (not optional this time!), city, and country are also displayed. All details are generated via PHP.
 
-  > _**comment from JP**: there **is** a user field in the image objects you get back from the API. It is not optional this go-round because it actually does represent a user of our website!._
+  > _**comment from JP**: there is a `UserID` field in the `imagedetails` database table to help you with getting the proper user_
 
 - [ ] The city name shown on the page hyperlinks to the `single-city.php` page with an appropriate query string parameter.
 
@@ -318,9 +323,9 @@ _An overview of the Photo Page can be found on page 7 of the [assignment pdf](co
 
 - [ ] An "Add to Favorites" button is present, but only if the user is logged in.
 
-- [ ] Any photo "favorited" will be present on the Favorites page. This will be accomplished through the use of PHP sessions (not cookies).
+- [ ] Any photo "favorited" will be present on the [Favorites Page](#the-favorites-page-requirements). This will be accomplished through the use of PHP sessions (not cookies).
 
-- [ ] If a photo displayed on this page has already been favorited, it should not be possible to "re-favorite" the photo. You can decide how this is accomplished.
+- [ ] If a photo displayed on this page has already been favorited, it should not be possible to "re-favorite" the photo. You decide how this is accomplished.
 
 - [ ] When a photo is favorited, there is some form of visual feedback that this has occurred. You can use either a redirect or JS fetch to accomplish this - see the assignment pdf (Photo Page, page 7) for further details.
 
@@ -328,7 +333,7 @@ _An overview of the Photo Page can be found on page 7 of the [assignment pdf](co
 
 ### The Favorites Page Requirements
 
-_An overview of the Favorites Page can be found on page 8 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-3.pdf)._
+_An overview of the Favorites Page can be found on page 8 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-4.pdf)._
 
 - [ ] The file for this page is named **favorites.php**.
 
@@ -340,7 +345,7 @@ _An overview of the Favorites Page can be found on page 8 of the [assignment pdf
 
 - [ ] A list of all favorited photos appears here.
 
-  > _logged-in users can favorite photos on the Photos and Browse/Search pages_
+  > _a reminder: logged-in users can favorite photos on the Photos and Browse/Search pages_
 
 - [ ] If no photos have been favorited, that is indicated clearly to the user.
 
@@ -354,11 +359,11 @@ _An overview of the Favorites Page can be found on page 8 of the [assignment pdf
 
 ### The About Page Requirements
 
-_An overview of the Favorites Page can be found on page 8 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-3.pdf)._
+_An overview of the Favorites Page can be found on page 8 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-4.pdf)._
 
 All requirements from milestone 1 are in effect.
 
-##### ⚠ significant new About Page requirement
+##### ⚠ a significant new About Page requirement
 
 - [ ] The name and github repo links for **every** group member is present.
 
@@ -366,13 +371,13 @@ All requirements from milestone 1 are in effect.
 
 ### The Browse/Search Page Requirements
 
-_An overview of the Browse/Search Page can be found on page 9 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-3.pdf)._
+_An overview of the Browse/Search Page can be found on page 9 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-4.pdf)._
 
 - [ ] There are obvious ways to search for photos by country, city, and title.
 
-- [ ] The country and city filters are `<select>` lists populated only with countries/cities that have photos.
+- [ ] The country and city filters are `<select>` lists populated **only** with countries/cities that have photos.
 
-- [ ] Title searches are case-insensitive and search anywhere in the title (not just the beginning of the title).
+- [ ] Title searches are case-insensitive and search **anywhere** in the title (not just the beginning of the title).
 
 - [ ] Searching is accomplished with PHP, not JS. Because of this, a submit/filter button is present.
 
@@ -386,13 +391,13 @@ _An overview of the Browse/Search Page can be found on page 9 of the [assignment
 
 - [ ] Each thumbnail presented has an obvious way to view it in greater detail (on the Photos page).
 
-- [ ] If the user is logged in, there is an obvious way to favorite each photo. The favorite behaviour is as described in the [Photos requirements](#-significant-new-photo-page-requirements).
+- [ ] If the user is logged in, there is an obvious way to favorite each photo. The favorite behaviour is as described in the [Photos Page](#-significant-new-photo-page-requirements).
 
 ---
 
 ### The Login Page Requirements
 
-_An overview of the Login Page can be found on page 10 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-3.pdf), including information about the authentication process._
+_An overview of the Login Page can be found on page 10 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-4.pdf), including information about the authentication process._
 
 _We will be discussing this process in general in lecture during the second-last week of classes, so you may need to leave completion of this page until that time._
 
@@ -408,7 +413,7 @@ _We will be discussing this process in general in lecture during the second-last
 
 ### The Registration/Signup Page Requirements
 
-_An overview of the Registration Page can be found on page 11 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-3.pdf)._
+_An overview of the Registration Page can be found on page 11 of the [assignment pdf](comp-3512-asg-2-fall-2021-version-4.pdf)._
 
 - [ ] A registration form containing the fields in the sketch on page 11 is displayed.
 
@@ -425,10 +430,10 @@ _An overview of the Registration Page can be found on page 11 of the [assignment
 - [ ] If client-side validation of the form detects any issues, these issues are conveyed to the user in a reasonable and nice-looking way. **The user's data must still be present, because it is hella-annoying to have to re-type things, right?!?**
 
 - [ ] The form action is a POST.
-  
-    > _while you're developing the form requirements, you will find it useful to use GET - just remember to change it back to POST before submission!_
 
-##### ⚠ significant new Registration Page requirement
+  > _while you're developing the form requirements, you will find it useful to use GET - just remember to change it back to POST before submission!_
+
+##### ⚠ significant new Registration Page requirements
 
 - [ ] If the validation passes, but the user's email already exists in the Users table, the user is shown the form again - with their form entries still present - and an informative and well-presented error message is displayed.
 
@@ -456,3 +461,12 @@ _An overview of the Registration Page can be found on page 11 of the [assignment
 
 - [ ] Data from both endpoints is valid JSON (you can find online validators to help you be sure).
 
+---
+
+### The Best Practice Requirements
+
+_To get an A or A+, the project needs to show an attention to detail and an attempt to make the code understandable to people perusing the files - me, of course, but also potential employers...and your future selves!_
+
+- [ ] Your site only exposes necessary files in a public folder. (Any kind of configuration files should not be accessible.)
+- [ ] Files are organized into reasonable directories based on their job. Having a mess of files at one level of organization is not acceptable.
+- [ ] [General design guidelines](design-guidelines.md) are largely followed.

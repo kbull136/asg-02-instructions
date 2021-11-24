@@ -40,3 +40,7 @@ Update all links to the pdf.
 ### 2021-11-22
 
 Add to FAQ. (Questions about using asg1 code and starting data errors.)
+
+### 2021-11-24
+
+Milestone 3 released.
