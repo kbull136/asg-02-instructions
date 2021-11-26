@@ -217,7 +217,7 @@ _An overview of the Country Page can be found on page 5 of the [assignment pdf](
 
 - [ ] Clicking on a country will cause this page to reload this page for that country.
 
-- [ ] All country details, as outlined in the assignment pdf, are present for the current country. _Since you've cached the country details, you can present them via JS if you wish._
+- [ ] All country details, as outlined in the assignment pdf, are present for the current country. _Since you've cached the country details, you can present them via JS if you wish._ Country details must include the extra language and neighbouring country requirements that were present in assignment 1: full names must be used instead of codes.
 
   > _if the query string parameter is non-existent, this country details section should show no data_
 

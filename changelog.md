@@ -44,3 +44,7 @@ Add to FAQ. (Questions about using asg1 code and starting data errors.)
 ### 2021-11-24
 
 Milestone 3 released.
+
+### 2021-11-26
+
+Clarification of language and neighbouring country requirements for Country Details section.
