@@ -48,3 +48,8 @@ Milestone 3 released.
 ### 2021-11-26
 
 Clarification of language and neighbouring country requirements for Country Details section.
+
+### 2021-11-27
+
+Add info on using GCP with Heroku.
+Move Country List/Filters into own section.

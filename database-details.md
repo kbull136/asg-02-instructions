@@ -29,6 +29,8 @@ I've created a [walkthrough of the process](https://youtu.be/rkO443kfFuk) [4:11]
 
 ## database creation and population on Heroku
 
+### ClearDB MySQL
+
 Heroku itself does **not** natively use mySQL, so an add-on (ClearDB MySQL) is required. The process of setting it up isn't nearly as painful as I feared it was going to be.
 
 Watch these screencasts in order:
@@ -36,9 +38,23 @@ Watch these screencasts in order:
 1. [getting mysql onto your heroku box](https://youtu.be/n-25KMMZjkM) [8:04]
 2. [getting the travel tables into ClearDB](https://youtu.be/AcIdqDZlYCk) [7:05]
 
+
+### Google Cloud Platform (GCP) MySQL 
+
+If, for whatever reason, don't want to use a credit card to use ClearDB, you can get things working with a GCP MySQL instance.
+
+Watch these screencasts in order:
+
+1. [applying Google Cloud Platform (GCP) credits](https://youtu.be/bs0VOP3KiM0) [6:35] 
+2. [creating a GCP project](https://youtu.be/0OSHSaeetwA) [3:32] 
+3. [overview of what we're trying to do with GCP](https://youtu.be/I3DbbhabyN0) [4:30] 
+4. [creating a mySQL instance on GCP](https://youtu.be/EF--K_Kmovc) [8:52] 
+5. [connecting to our GCP server via the mySQL client](https://youtu.be/H_5_1yQO_1U) [16:30] 
+6. [setting up environment variables on Heroku for GCP](https://youtu.be/Ecw_6Tj-nXg) [7:55] 
+
 ### IMPORTANT, YO
 
-You only want ONE ClearDB database for the Heroku site - not one for each group member. So have ONE member do the setup and then share the configuration information with the rest of the group.
+You only want ONE ClearDB/GCP database for the Heroku site - not one for each group member. So have ONE member do the setup and then share the configuration information with the rest of the group.
 
 _Because I think **everyone** should share this experience, guess what kind of thing you're all doing for tutorial 10?...._
 

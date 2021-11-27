@@ -31,20 +31,21 @@ I have separated requirements into the following sections (the ⚠ denotes eithe
 11. [Browse/Search Page Requirements](#the-browsesearch-page-requirements) ⚠
 12. [Login Page Requirements](#the-login-page-requirements) ⚠
 13. [Registration/Signup Page Requirements](#the-registrationsignup-page-requirements) ⚠
-14. [Logout Requirements](#the-logout-requirements) ⚠
-15. [Countries API Requirements](#the-countries-api-requirements)
-16. [Best Practice Requirements](#the-best-practice-requirements) ⚠
+14. [Country List/Filter Requirements](#the-country-listfilter-requirements)
+15. [Logout Requirements](#the-logout-requirements) ⚠
+16. [Countries API Requirements](#the-countries-api-requirements)
+17. [Best Practice Requirements](#the-best-practice-requirements) ⚠
 
 For a section to be considered "completed", **ALL** requirements in that section must be completed.
 
-| completed requirement sections                                 | mark | range  |
-| -------------------------------------------------------------- | ---- | ------ |
-| Non-Perkable **&** Header **&** Validation **&** API **&** About               | F+   | 25-49  |
-| F+ req's **&** Country, City, and Photo Pages                      | D+   | 55-59  |
-| D+ req's **&** Home (logged in **&** out versions) **&** Login **&** Logout    | C    | 63-66  |
-| C req's **&** Visual Design **&** Registration                         | B    | 73-76  |
-| B req's **&** Best Practices **&** **one** of Favorites, Browse/Search | A    | 85-94  |
-| All req's                                                      | A+   | 95-100 |
+| completed requirement sections                                              | mark | range  |
+| --------------------------------------------------------------------------- | ---- | ------ |
+| Non-Perkable **&** Header **&** Validation **&** API **&** About            | F+   | 25-49  |
+| F+ req's **&** Country List/FIlter **&** Country, City, and Photo Pages     | D+   | 55-59  |
+| D+ req's **&** Home (logged in **&** out versions) **&** Login **&** Logout | C    | 63-66  |
+| C req's **&** Visual Design **&** Registration                              | B    | 73-76  |
+| B req's **&** Best Practices **&** **one** of Favorites, Browse/Search      | A    | 85-94  |
+| All req's                                                                   | A+   | 95-100 |
 
 ## Non-Perkable Requirements
 
@@ -201,29 +202,9 @@ _An overview of the Country Page can be found on page 5 of the [assignment pdf](
 
 - [ ] When viewed in Chrome's devtools at Mobile L size (425px) and Laptop L size (1440px), this page has a reasonable layout.
 
-- [ ] A well-presented, alphabetically-sorted list of all countries from your [countries API](#the-countries-api) is visible on the page. This list is populated via JS (see assignment 1), not PHP.
-
-- [ ] Each country in the country list hyperlinks back to this page with a query string parameter indicating the country to display.
-
-  > _for example the link to Canada would need to go to `single-country.php?iso=ca`_
-
-- [ ] Caching of the list of countries occurs to local storage occurs, just like it did in assignment 1.
-
-- [ ] All filtering behaviour from assignment 1 is present and is done solely through JS.
-
-- [ ] Filters are well-presented.
-
-  > _this is my way of saying "improve the presentation of the filters as compared to assignment 1_
-
-- [ ] Clicking on a country will cause this page to reload this page for that country.
-
 - [ ] All country details, as outlined in the assignment pdf, are present for the current country. _Since you've cached the country details, you can present them via JS if you wish._ Country details must include the extra language and neighbouring country requirements that were present in assignment 1: full names must be used instead of codes.
 
   > _if the query string parameter is non-existent, this country details section should show no data_
-
-- [ ] A list of cities for the current country are present, in alphabetical order, each city hyperlinking to the `single-city.php` page with an appropriate query string parameter.
-
-  > _if the query string parameter is non-existent, this city list section should show no data_
 
 - [ ] If photos are available for the current country, they are displayed in a well-presented fashion.
 
@@ -248,22 +229,6 @@ _An overview of the City Page can be found on page 6 of the [assignment pdf](com
 - [ ] This page has a Header, as detailed in the [Header section](#the-header-requirements).
 
 - [ ] When viewed in Chrome's devtools at Mobile L size (425px) and Laptop L size (1440px), this page has a reasonable layout.
-
-- [ ] A well-presented, alphabetically-sorted list of all countries from your country API is visible on the page. This list is populated via JS (see assignment 1), not PHP.
-
-- [ ] Each country in the country list hyperlinks back to the Country page with a query string parameter indicating the country to display.
-
-  > _for example the link to Canada would need to go to `single-country.php?iso=ca`_
-
-- [ ] Caching of the list of countries occurs to local storage occurs, just like it did in assignment 1.
-
-- [ ] All filtering behaviour from assignment 1 is present and is done solely through JS.
-
-- [ ] Filters are well-presented.
-
-  > _this is my way of saying "improve the presentation of the filters as compared to assignment 1_
-
-- [ ] Clicking on a country will cause this page to load the `single-country.php` page for that country.
 
 - [ ] All city details, as outlined in the [assignment pdf](comp-3512-asg-2-fall-2021-version-4.pdf), are present for the current city. All details are generated via PHP.
 
@@ -440,6 +405,27 @@ _An overview of the Registration Page can be found on page 11 of the [assignment
 - [ ] If the validation passes and the user's email is not present in the Users table, a new record is created in the Users table, the user is logged in (using a PHP session), and redirected to their Profile page.
 
 - [ ] Passwords are saved using a bcrypt hash with a cost value of 12.
+
+---
+
+### The Country List/Filter Requirements
+
+_Since the country list/filter requirements are the same for both the Country and City pages, it made sense to pull these out into one section._
+
+- [ ] A well-presented, alphabetically-sorted list of all countries from your [countries API](#the-countries-api) is visible on the Country and City pages. This list is populated via JS (see assignment 1), not PHP.
+
+- [ ] Each country in the country list hyperlinks back to the Country page with a query string parameter indicating the country to display.
+
+  > _for example the link to Canada would need to go to `single-country.php?iso=ca`_
+
+- [ ] Caching of the list of countries occurs to local storage occurs, just like it did in assignment 1.
+
+- [ ] All filtering behaviour from assignment 1 is present and is done solely through JS.
+
+- [ ] Filters are well-presented.
+
+  > _this is my way of saying "improve the presentation of the filters as compared to assignment 1_
+
 
 ---
 
